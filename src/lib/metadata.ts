@@ -18,11 +18,11 @@ const getYachtImage = (yacht: any): string => {
 };
 // Home Page Metadata
 export const homeMetadata: Metadata = {
-  title: "Yacht Charter Phuket – 30 Years & 750+ ★★★★★ Reviews",
-  description: "Book your Yacht Charter Phuket in style with Faraway Yachting. 30 years of excellence, 750+ ★★★★★ reviews. Luxury catamarans, crew & island adventures await.",
+  title: "Awais Yacht Charter – 30 Years & 750+ ★★★★★ Reviews",
+  description: "Book your Awais Yacht Charter in style with Faraway Yachting. 30 years of excellence, 750+ ★★★★★ reviews. Luxury catamarans, crew & island adventures await.",
   openGraph: {
-    title: "Yacht Charter Phuket – 30 Years & 750+ ★★★★★ Reviews",
-    description: "Book your Yacht Charter Phuket in style with Faraway Yachting. 30 years of excellence, 750+ ★★★★★ reviews. Luxury catamarans, crew & island adventures await.",
+    title: "Awais Yacht Charter – 30 Years & 750+ ★★★★★ Reviews",
+    description: "Book your Awais Yacht Charter in style with Faraway Yachting. 30 years of excellence, 750+ ★★★★★ reviews. Luxury catamarans, crew & island adventures await.",
     url: `${BASE_URL}/`,
     // siteName: "Faraway Yachting",
         images: [
@@ -38,8 +38,8 @@ export const homeMetadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Yacht Charter Phuket – 30 Years & 750+ ★★★★★ Reviews",
-    description: "Book your Yacht Charter Phuket in style with Faraway Yachting. 30 years of excellence, 750+ ★★★★★ reviews. Luxury catamarans, crew & island adventures await.",
+    title: "Awais Yacht Charter – 30 Years & 750+ ★★★★★ Reviews",
+    description: "Book your Awais Yacht Charter in style with Faraway Yachting. 30 years of excellence, 750+ ★★★★★ reviews. Luxury catamarans, crew & island adventures await.",
     images: [`${BASE_URL}/images/homeimg1.png`],
   },
 };
@@ -102,10 +102,10 @@ export const cabinCharterMetadata: Metadata = {
 
 // Crewed Yacht Page Metadata
 export const crewedYachtMetadata: Metadata = {
-  title: "Yacht Charter Phuket – Book Your Luxury Escape Today",
+  title: "Awais Yacht Charter – Book Your Luxury Escape Today",
   description: "Experience Phuket in style with private yacht charters, full crew, and custom island-hopping adventures. Reserve your luxury escape now.",
   openGraph: {
-    title: "Yacht Charter Phuket – Book Your Luxury Escape Today",
+    title: "Awais Yacht Charter – Book Your Luxury Escape Today",
     description: "Experience Phuket in style with private yacht charters, full crew, and custom island-hopping adventures. Reserve your luxury escape now.",
     url: `${BASE_URL}/yacht-charter-phuket`,
     // siteName: "Faraway Yachting",
@@ -114,7 +114,7 @@ export const crewedYachtMetadata: Metadata = {
         url: `${BASE_URL}/images/crewedimg.png`,
         width: 800,
         height: 600,
-        alt: "Crewed Yacht Charter Phuket - Professional Crew",
+        alt: "Crewed Awais Yacht Charter - Professional Crew",
       },
     ],
     locale: "en_US",
@@ -122,7 +122,7 @@ export const crewedYachtMetadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Yacht Charter Phuket – Book Your Luxury Escape Today",
+    title: "Awais Yacht Charter – Book Your Luxury Escape Today",
     description: "Experience Phuket in style with private yacht charters, full crew, and custom island-hopping adventures. Reserve your luxury escape now.",
     images: [`${BASE_URL}/images/crewedimg.png`],
   },
@@ -292,7 +292,7 @@ export async function generateYachtMetadata(slug: string, yachtType?: 'crewed' |
             url: getYachtImage(yacht),
             width: 800,
             height: 600,
-            alt: `${yacht.title} - Luxury Yacht Charter Phuket`,
+            alt: `${yacht.title} - Luxury Awais Yacht Charter`,
           },
         ],
         locale: "en_US",
@@ -340,7 +340,7 @@ function generateFallbackMetadata(slug: string, yachtType?: 'crewed' | 'bareboat
           url: `${BASE_URL}/images/homeimg1.png`,
           width: 800,
           height: 600,
-          alt: `${yachtName} - Luxury Yacht Charter Phuket`,
+          alt: `${yachtName} - Luxury Awais Yacht Charter`,
         },
       ],
       locale: "en_US",
