@@ -19,7 +19,7 @@ const BestLands: React.FC<Props> = ({ data }) => {
       {/* Title */}
       <div>
         <h2 className={combine(styles.h2, "font-playfair text-zink font-extrabold md:mb-5 lg:mb-8 text-center")}>
-          Phuket Yacht Charter Adventures
+          Awais Yacht Charter Adventures
         </h2>
       </div>
 

@@ -27,7 +27,7 @@ const HeroContent = () => {
         <div className={combine(flexCenter, "h-full text-center text-white px-4 relative z-10")}>
           <div className={combine(flexCol, "justify-center items-center max-w-4xl mx-auto")}>
             <h1 className={combine(h1, "leading-tight md:max-w-2xl lg:max-w-2xl w-full")}>
-              Phuket Yacht Charter
+              Awais Yacht Charter
             </h1>
             <img
               src={PngIcons.rframe2}
@@ -36,7 +36,7 @@ const HeroContent = () => {
             />
 
             <p className={combine(p1, "font-light font-sourceSansPro text-center mb-4 md:mb-6", containerXl, "drop-shadow-lg text-white/95")}>
-              Experience luxury and adventure with the best Phuket Yacht Charter Operator. Sail the stunning waters & best Islands of Phuket in style and make unforgettable memories.
+              Experience luxury and adventure with the best Awais Yacht Charter Operator. Sail the stunning waters & best Islands of Phuket in style and make unforgettable memories.
             </p>
             <div className="flex justify-center">
               <Button

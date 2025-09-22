@@ -30,7 +30,7 @@ const BestLands: React.FC<Props> = ({ id }) => {
       {/* Title */}
       <div>
         <p className="text-[28px] md:[30px] lg:text-[36px] xl:text-[40px] font-playfair text-zink font-extrabold md:mb-5 lg:mb-8 text-center">
-          Phuket Yacht Charter Adventures
+          Awais Yacht Charter Adventures
         </p>
       </div>
       {/* Decorative Images */}
