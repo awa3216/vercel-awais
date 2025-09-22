@@ -7,6 +7,7 @@ import PrivateYacht_Tour from "@/Component/Home/privateTour";
 import TodaysAdventure from "@/Component/Home/todaysAdventure";
 import FunMoments from "@/Component/cabinCharter/moments";
 import Sailingyacht_Phuket from "@/Component/Home/yachtinPhuket";
+import YachtTypes from "@/Component/Home/yachtTypes";
 import { Fragment } from "react";
 import BookwithUs from "@/Component/Home/setDeal";
 import { homeMetadata } from "@/lib/metadata";
@@ -21,6 +22,7 @@ export default function Home() {
       <BookwithUs />
       <PrivateYacht_Tour />
       <Sailingyacht_Phuket />
+      <YachtTypes />
       <ExploreThailand />
       <FunMoments />
       <Destinations_Section />
