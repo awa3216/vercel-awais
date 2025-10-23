@@ -27,7 +27,7 @@ const HeroContent = () => {
         <div className={combine(flexCenter, "h-full text-center text-white px-4 relative z-10")}>
           <div className={combine(flexCol, "justify-center items-center max-w-4xl mx-auto")}>
             <h1 className={combine(h1, "leading-tight md:max-w-2xl lg:max-w-2xl w-full")}>
-              Awais Yacht Charterings of Phuket
+              Awais Yacht Charterings of Phuketings of indonesia
             </h1>
             <img
               src={PngIcons.rframe2}
